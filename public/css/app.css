@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir.eot?b3107e85ab4cd06b379624baa2ad56d1);
+  src: url(/fonts/Vazir.eot?b3107e85ab4cd06b379624baa2ad56d1?#iefix) format('embedded-opentype'),
+       url(/fonts/Vazir.woff?21996b67bae94dde1afea1865865f8ce) format('woff'),
+       url(/fonts/Vazir.ttf?a83daff6a3fcaf7cf89f771c940e401f) format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Bold.eot?47c7f9c48f3d93d5daa15b4eaef5f318);
+  src: url(/fonts/Vazir-Bold.eot?47c7f9c48f3d93d5daa15b4eaef5f318?#iefix) format('embedded-opentype'),
+       url(/fonts/Vazir-Bold.woff?748f32d92cf483f2eb5b46ca95fc4e40) format('woff'),
+       url(/fonts/Vazir-Bold.ttf?7a8ce4ce3830de1cad8102c5f6184fa9) format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Light.eot?0b44836d8724174b5011002b718d485c);
+  src: url(/fonts/Vazir-Light.eot?0b44836d8724174b5011002b718d485c?#iefix) format('embedded-opentype'),
+       url(/fonts/Vazir-Light.woff?1c7f779da0c3e054b7494cd74558f520) format('woff'),
+       url(/fonts/Vazir-Light.ttf?29002bf5cccc9043dd777970f6241bfe) format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Medium.eot?f668b5fa32a33b0a58d3ca61aea3aac2);
+  src: url(/fonts/Vazir-Medium.eot?f668b5fa32a33b0a58d3ca61aea3aac2?#iefix) format('embedded-opentype'),
+       url(/fonts/Vazir-Medium.woff?7e5c1289975b413a1f109bc490d7508c) format('woff'),
+       url(/fonts/Vazir-Medium.ttf?e7ef286ad1a9ecdc146bcfe51416ee6e) format('truetype');
+  font-weight: 500;
+}
+body {
+  font-family: Vazir,tahoma;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc291cmNlcy9zYXNzL2FwcC5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIlxyXG4vLyBGb250c1xyXG4vLyBAaW1wb3J0IHVybChodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UmFsZXdheTozMDAsNDAwLDYwMCk7XHJcbkBpbXBvcnQgJy4vZm9udHMvZm9udC1mYWNlLmNzcyc7XHJcbi8vIFZhcmlhYmxlc1xyXG4vLyBAaW1wb3J0IFwidmFyaWFibGVzXCI7XHJcblxyXG4vLyBCb290c3RyYXBcclxuLy8gQGltcG9ydCBcIm5vZGVfbW9kdWxlcy9ib290c3RyYXAtc2Fzcy9hc3NldHMvc3R5bGVzaGVldHMvYm9vdHN0cmFwXCI7XHJcbmJvZHl7XHJcblx0Zm9udC1mYW1pbHk6VmF6aXIsdGFob21hXHJcbn0iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0EsT0FBTyxDQUFQLDBCQUFPO0FBTVAsQUFBQSxJQUFJLENBQUE7RUFDSCxXQUFXLEVBQUMsWUFDYjtDQUFDIn0= */
