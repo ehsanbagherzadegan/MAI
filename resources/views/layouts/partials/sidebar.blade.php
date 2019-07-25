@@ -74,7 +74,7 @@
           </li>
           @endability
           <!-- End Security Menu -->
-          <!-- Begin Basic Info menu --->
+          <!-- Begin Basic Info menu 
           @ability('admin|radioadmin','can-manage-radiology',['validate_all' => false])
           <li class="nav-item has-treeview">
               <a href="#" class="nav-link">
@@ -90,10 +90,10 @@
               </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="/specialities" class="nav-link">
+                <router-link to="/" class="nav-link">
                   <i class="nav-icon fas fa-table cyan"></i>
                   <p>
-                  {{ __('menus.speciality') }}
+                  {{ __('menus.group_assets') }}
                   </p>
                 </router-link>
               </li>
@@ -101,20 +101,20 @@
                 <router-link to="/radio_types" class="nav-link">
                   <i class="nav-icon fas fa-images cyan"></i>
                   <p>
-                  {{ __('menus.radio_type_management') }}
+                  {{ __('menus.assets') }}
                   </p>
                 </router-link>
               </li>                              
             </ul>
           </li>
-          @endability
+          @endability-->
           <!-- End Basic Info menu --->
-          <!-- Begin Radiology menu --->
+          <!-- Begin Radiology menu 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-receipt green"></i>
               <p>
-              {{ __('menus.reception_management') }}
+              {{ __('menus.workorder_management') }}
                 @if(App::isLocale('fa'))
                 <i class="right fa fa-angle-right"></i>
                 @elseif(App::isLocale('en'))
@@ -127,27 +127,27 @@
               <li class="nav-item">
                 <router-link to="/receptions" class="nav-link">
                   <i class="fas fa-id-badge nav-icon green"></i>
-                  <p>{{ __('menus.reception') }}</p>
+                  <p>{{ __('menus.cartabl') }}</p>
                 </router-link>
               </li>
-              @endability
-              <!-- Begin Tech menu -->
+              @endability-->
+              <!-- Begin Tech menu 
               @ability('','can-capture-reception',['validate_all' => false])
               <li class="nav-item">
                 <router-link to="/registered_receptions" class="nav-link">
                   <i class="fas fa-registered nav-icon green"></i>
-                  <p>{{ __('menus.registered_reception') }}</p>
+                  <p>{{ __('menus.cartabl') }}</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/all_receptions" class="nav-link">
                   <i class="fas fa-tasks nav-icon green"></i>
-                  <p>{{ __('menus.all_user_receptions') }}</p>
+                  <p>{{ __('menus.workorders') }}</p>
                 </router-link>
               </li>
-              @endability
+              @endability-->
               <!-- end Tech Menu -->
-              <!-- Begin Doctor Menu -->
+              <!-- Begin Doctor Menu 
               @ability('doctor','can-result-reception	',['validate_all' => false])
               <li class="nav-item">
                 <router-link to="/captured_receptions" class="nav-link">
@@ -161,9 +161,9 @@
                   <p>{{ __('menus.all_user_receptions') }}</p>
                 </router-link>
               </li>           
-              @endability
+              @endability-->
               <!-- End Doctor Menu -->
-              <!-- Begin Admins & Receptors Menu -->
+              <!-- Begin Admins & Receptors Menu 
               @ability('admin|radioadmin','can-register-reception',['validate_all' => false])
               <li class="nav-item">
                 <router-link to="/registered_receptions" class="nav-link">
@@ -189,10 +189,10 @@
                   <p>{{ __('menus.rejected_reception') }}</p>
                 </router-link>
               </li>
-              @endability
-              <!-- End Admins & Receptors Menu -->                                           
+              @endability-->
+              <!-- End Admins & Receptors Menu                                          
             </ul>
-          </li>
+          </li>-->  
           <!-- End Radiology menu --->
           <!--<li class="nav-item">
             <router-link to="/profiles" class="nav-link">

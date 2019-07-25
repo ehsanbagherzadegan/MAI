@@ -15,11 +15,11 @@ return [
 
     'cardTitle' => 'داشبورد',
     'cardBody' => 'محتوای کامپوننت داشبورد',
-    'totalCompleteFileCount' => 'تعداد پرونده های تکمیل شده',
+    'totalCompleteFileCount' => 'تعداد کامپوننتهای تکمیل شده',
     'view' => 'مشاهده',
-    'totalTodayFileCount' => 'تعداد پرونده های امروز',
-    'totalActiveDoctorCount' => 'تعداد پزشکان فعال',
-    'totalFileCount' => 'تعداد کل پرونده ها',
-    'totalRejectFileCount' => 'تعداد پرونده های رد شده'
+    'totalTodayFileCount' => 'تعداد کامپوننتهای در حال طراحی',
+    'totalActiveDoctorCount' => 'تعداد کامپوننتهای فعال',
+    'totalFileCount' => 'تعداد کل کامپوننتها',
+    'totalRejectFileCount' => 'تعداد کامپوننتهای ناقص'
 
 ];

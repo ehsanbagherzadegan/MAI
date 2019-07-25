@@ -12,7 +12,7 @@ return [
     | these language lines according to your application's requirements.
     |
     */
-    'app_name' => 'سامانه بهار',
+    'app_name' => 'سامانه یکپارچه رادان',
     'designDate' => '1397',
     'footerMsg'  =>' طراحی و پیاده سازی با ',    
     'companyName' => ' توسط رایان داده اندیش سپاهان ',
